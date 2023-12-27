@@ -32,6 +32,7 @@ const Routings = () => {
                 {element}
               </RequireAuth>
             }
+            // eslint-disable-next-line react/jsx-props-no-spreading
             {...privateRouteProps}
             key={`privateRoute-${privateRouteProps.path}`}
           />
