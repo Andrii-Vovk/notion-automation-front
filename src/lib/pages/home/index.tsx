@@ -1,15 +1,9 @@
-import { Grid } from '@chakra-ui/react';
-
-import CTASection from './components/CTASection';
-import SomeImage from './components/SomeImage';
-import SomeText from './components/SomeText';
+import { Grid, Text } from '@chakra-ui/react';
 
 const Home = () => {
   return (
     <Grid gap={4}>
-      <SomeText />
-      <SomeImage />
-      <CTASection />
+      <Text className="text-red-500">Home</Text>
     </Grid>
   );
 };
